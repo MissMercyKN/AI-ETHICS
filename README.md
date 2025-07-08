@@ -1,0 +1,2 @@
+# AI-ETHICS
+Week 7
