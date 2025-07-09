@@ -1,0 +1,41 @@
+Q1: Define Algorithmic Bias and Provide Two Examples of How It Manifests in AI Systems
+Algorithmic bias refers to systematic and unfair discrimination that occurs in AI systems due to biased training data, flawed assumptions, or design choices. It results in outputs that unfairly favor or disadvantage certain individuals or groups based on factors like race, gender, or socioeconomic status.
+
+🔍 Examples:
+Facial Recognition Bias
+Some AI facial recognition systems have been shown to misidentify people of color at significantly higher rates than white individuals. For instance, studies have found that these systems often misclassify Black or Asian faces, leading to false arrests or surveillance bias.
+
+Hiring Algorithms
+AI tools used by companies for résumé screening have been found to favor male applicants if trained on historical hiring data that reflects gender bias. For example, if a company historically hired more men for tech roles, the AI may learn to associate male-related keywords with better candidates.
+
+Q2: Explain the Difference Between Transparency and Explainability in AI. Why Are Both Important?
+Transparency refers to how openly an AI system’s design, training data, and decision-making processes are documented and disclosed. It's about being able to inspect what went into the system.
+
+Explainability refers to how easily a human can understand the reasoning behind a specific AI decision or prediction. It focuses on making complex models understandable to users or stakeholders.
+
+🔍 Why Both Are Important:
+Trust & Accountability: Users are more likely to trust and adopt AI systems if they understand how and why decisions are made.
+
+Regulatory Compliance: Laws like the EU’s GDPR require that individuals have the right to know the logic behind automated decisions.
+
+Bias Detection: Transparency allows researchers to audit datasets and models, while explainability helps identify unfair or biased outcomes.
+
+Q3: How Does GDPR (General Data Protection Regulation) Impact AI Development in the EU?
+The GDPR is a comprehensive data protection law that governs how personal data is collected, processed, and stored in the European Union. It has a significant impact on AI development by imposing legal, ethical, and operational obligations.
+
+⚖️ Key Impacts:
+Right to Explanation
+Article 22 of the GDPR gives individuals the right not to be subject to decisions made solely by automated processing, including profiling, without human intervention. Developers must ensure that AI systems can provide clear explanations for their decisions.
+
+Data Minimization & Consent
+AI models must be trained on minimal necessary data, and users must give explicit consent for data collection. This restricts how much and what kind of personal data AI developers can use.
+
+Accountability & Privacy by Design
+AI systems must include privacy-preserving mechanisms from the ground up. Developers must document how data is processed and ensure security, often requiring additional resources and compliance checks.
+B) Non-maleficence – Ensuring AI does not harm individuals or society.
+
+C) Autonomy – Respecting users’ right to control their data and decisions.
+
+D) Sustainability – Designing AI to be environmentally friendly.
+
+A) Justice – Fair distribution of AI benefits and risks.
