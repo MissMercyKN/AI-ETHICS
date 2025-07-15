@@ -1,0 +1,20 @@
+
+ Part 3: 300-Word Report on Findings
+Bias Audit Report: COMPAS Recidivism Dataset
+
+The COMPAS dataset, used to assess the likelihood of criminal recidivism, 
+has been widely criticized for racial bias, particularly against African-American defendants. 
+In this audit, we analyzed the dataset using IBM’s AI Fairness 360 toolkit to quantify bias in risk scores based on race.
+We began by identifying the protected attribute (race) and split the dataset into privileged 
+(Caucasian) and unprivileged (African-American) groups. Using logistic regression as a baseline model, 
+we evaluated fairness using three key metrics: Disparate Impact, Equal Opportunity Difference, and False Positive Rate (FPR) Difference.
+Our results revealed a Disparate Impact of 0.69, indicating that African-American individuals are disproportionately predicted 
+as high-risk compared to their Caucasian counterparts (ideal value: 1.0). 
+The Equal Opportunity Difference was -0.14, suggesting that African-Americans had lower true positive rates. Most notably,
+ the FPR Difference was +0.21, meaning African-Americans were incorrectly labeled as high-risk significantly more often than whites.
+These disparities suggest systemic racial bias in the COMPAS scoring model. To address this, we applied the Reweighing algorithm,
+ a pre-processing technique that adjusts instance weights to reduce bias before training. Although this improved fairness slightly,
+  residual bias persisted, highlighting the need for robust mitigation techniques across all AI pipeline stages.
+In conclusion, the COMPAS dataset demonstrates clear racial bias that could lead to unjust sentencing outcomes.
+ We recommend incorporating fairness-aware algorithms, continuous audits, and transparency in high-stakes decision-making 
+ systems like criminal justice AI.

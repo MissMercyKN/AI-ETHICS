@@ -1,0 +1,11 @@
+Part 4: Ethical Reflection (5%)
+Ethical Reflection: AI in Health Risk Prediction
+
+In a recent project titled DiaWatch, we developed an AI-powered system to detect diabetes risk and recommend lifestyle changes. 
+Recognizing the ethical implications, we committed to principles of fairness, transparency, and accountability.
+
+To ensure ethical compliance, we selected open datasets with balanced demographics and audited them for bias. 
+We implemented privacy protections by anonymizing all user data and securing model endpoints. Additionally, 
+the system included explainable outputs to help users understand their risk scores, fostering trust and informed decision-making.
+Moving forward, I will continue to use tools like AI Fairness 360 and follow the guidelines of responsible AI development, 
+including stakeholder involvement, consent protocols, and regular evaluations for unintended harm.
