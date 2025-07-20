@@ -1,0 +1,28 @@
+✅ Case 1: Biased Hiring Tool – Amazon
+
+1. Source of Bias:
+The bias originated from the training data. Amazon's AI recruiting tool was trained on resumes submitted over a 10-year period, which reflected male-dominated hiring practices. As a result, the model penalized resumes that included indicators of female gender, such as the word “women’s” or mentions of women’s colleges and clubs.
+
+2. Three Fixes to Make the Tool Fairer:
+
+a. Debias the Training Data:
+  Remove gender-identifying information (e.g., names, pronouns, clubs) and ensure the dataset includes balanced examples from underrepresented groups.
+
+b. Implement Fairness-Aware Algorithms:
+  Use algorithms that apply fairness constraints or adversarial debiasing during training to reduce bias against specific groups.
+
+c. Incorporate Human Oversight and Feedback Loops:
+  Introduce human reviewers in the recruitment pipeline and continuously monitor outcomes to catch and correct bias in real-time.
+
+3. Fairness Evaluation Metrics:
+
+a) Disparate Impact Ratio:
+  Evaluates whether selection rates across groups (e.g., male vs. female) are balanced. A ratio below 0.8 indicates potential bias.
+
+b )   Equal Opportunity Difference:
+  Measures the difference in true positive rates for qualified candidates from different groups.
+
+c) Statistical Parity:
+  Checks if the probability of selection is equal across demographic groups regardless of qualifications.
+
+
